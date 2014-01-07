@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableRow1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#000" 
+     >
+    	<TextView
+      		android:id="@+id/rowId"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:background="#FFF"
+      		android:textColor="#00F"
+      		android:layout_marginBottom="1px"
+      		android:paddingLeft="10px"
+      		android:paddingTop="10px"
+      		android:paddingRight="40px"
+      		android:paddingBottom="3px"
+      		android:text="rowId" />
+    	
+    	<TextView
+      		android:id="@+id/rowName"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:background="#FFF"
+      		android:textColor="#00F"
+      		android:layout_marginBottom="1px"
+      		android:paddingLeft="10px"
+      		android:paddingTop="10px"
+      		android:paddingRight="20px"
+      		android:paddingBottom="3px"
+      		android:text="rowName" />
+    	
+    	<TextView
+      		android:id="@+id/rowValue"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:background="#FFF"
+      		android:textColor="#00F"
+      		android:layout_marginBottom="1px"
+      		android:paddingLeft="10px"
+      		android:paddingTop="10px"
+      		android:paddingRight="20px"
+      		android:paddingBottom="3px"
+      		android:text="rowValue" />
+    	<TextView
+      		android:id="@+id/rowDescription"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:background="#FFF"
+      		android:textColor="#00F"
+      		android:layout_marginBottom="1px"
+      		android:paddingLeft="10px"
+      		android:paddingTop="10px"
+      		android:paddingRight="20px"
+      		android:paddingBottom="3px"
+      		android:text="rowDescription" />
+    	<TextView
+      		android:id="@+id/rowAmount"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:background="#FFF"
+      		android:textColor="#00F"
+      		android:layout_marginBottom="1px"
+      		android:paddingLeft="10px"
+      		android:paddingTop="10px"
+      		android:paddingRight="20px"
+      		android:paddingBottom="3px"
+      		android:text="rowAmount" />
+</TableRow>
